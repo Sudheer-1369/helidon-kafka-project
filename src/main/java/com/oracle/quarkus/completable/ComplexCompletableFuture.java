@@ -1,4 +1,4 @@
-package com.oracle.quarkus;
+package com.oracle.quarkus.completable;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -8,7 +8,8 @@ public class ComplexCompletableFuture {
                 .thenApply(s -> s + " Mounika")
                 .thenApply(s -> s + " Venkat")
                 .thenApply(s -> s + " Manoja")
-                .thenAccept(s -> System.out.println(s));
+                .thenAccept(System.out::println);
 
     }
+
 }

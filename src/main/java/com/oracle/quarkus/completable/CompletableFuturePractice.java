@@ -1,4 +1,4 @@
-package com.oracle.quarkus;
+package com.oracle.quarkus.completable;
 
 
 import java.util.concurrent.CompletableFuture;
@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class CompletableFutureAndOnCompletionStage {
+public class CompletableFuturePractice {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         /**
