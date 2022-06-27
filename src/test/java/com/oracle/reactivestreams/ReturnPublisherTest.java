@@ -26,7 +26,7 @@ public class ReturnPublisherTest {
 
         items = List.of("s","u","d","h","e","e","r");
 
-        items.forEach(s->publisher.submit(s));
+        items.forEach(publisher::submit);
 
         }
     }
